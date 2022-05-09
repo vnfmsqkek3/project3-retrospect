@@ -1,0 +1,11 @@
+{
+  "name": "aws-node-sqs-worker",
+  "version": "1.0.0",
+  "description": "Serverless Framework Node SQS Producer-Consumer on AWS",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.1117.0",
+    "serverless-lift": "^1.15.0"
+  }
+}

@@ -1,0 +1,16 @@
+service: Stock-Inc-lambda
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi:
+          method: POST
+          path: /send
+
+
